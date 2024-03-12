@@ -24,6 +24,19 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
+## Libraries
+
+- Ant-design
+- Apollo-client (with codegen)
+- Prettier
+- Husky
+- Lint-staged
+
+## Information
+
+- Ant-design got style-provider in _app.tsx and config in getInitialProps in _document.tsx. To use antd components on server side with prerendered styles, you need to import them from "antd/lib"
+- Schema url for apollo-client and codegen need to be set in .env file to NEXT_PUBLIC_GRAPHQL_SCHEMA
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
