@@ -1,0 +1,7 @@
+{
+  "**/*.{j|t}s?(x)": [
+    "eslint --fix",
+    "prettier --write",
+    "git add"
+  ]
+}
