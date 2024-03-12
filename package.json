@@ -43,7 +43,7 @@
     "typescript": "^5"
   },
   "lint-staged": {
-    "./*/*.(j|t)s?(x)": [
+    "/**/*.(j|t)s?(x)": [
       "yarn lint:fix",
       "yarn format:fix",
       "git add"
