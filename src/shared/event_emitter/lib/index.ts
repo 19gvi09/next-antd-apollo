@@ -1,0 +1,1 @@
+export {EventEmitterInstance} from "./instance";
